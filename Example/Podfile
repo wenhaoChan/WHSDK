@@ -1,0 +1,15 @@
+#use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WHSDK_Example' do
+  pod 'WHSDK', :path => '../'
+
+  pod 'AFNetworking', '~> 4.0'
+  
+  target 'WHSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
