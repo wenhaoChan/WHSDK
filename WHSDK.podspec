@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'WHSDK/Classes/**/*'
   
-  spec.pod_target_xcconfig = {
+  s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
   
